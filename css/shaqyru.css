@@ -47,7 +47,7 @@
 		height: 100px;
 		border-radius: 50%;
 		font-size: 20px;
-		background:none;
+		background: linear-gradient(117.06deg, #124e68 23.73%, #3d68be 45.38%, #1d1d74 52.48%, #2555af 80.6%)
 		display: flex;
 		align-items: center;
 		justify-content: center;
