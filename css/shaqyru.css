@@ -1,0 +1,492 @@
+@font-face {
+	src: url("/fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf");
+	font-family: Cormorant-600;
+}
+
+@font-face {
+	src: url("/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf");
+	font-family: Cormorant-700;
+}
+
+@font-face {
+	src: url("/fonts/Cormorant_Infant/CormorantInfant-Bold.ttf");
+	font-family: Cormorant-800;
+}
+
+@font-face {
+	src: url("/fonts/Futura/futura-pt-light.ttf");
+	font-family: FuturaPT-400;
+}
+@font-face {
+    src: url("/fonts/Gilroy-Regular.ttf");
+    font-family: Cormorant;
+}
+.top-image {
+    text-align: center;
+    margin-top: 20px;
+}
+.top-photo {
+    max-width: 50%;
+    border-radius: 20px;
+    border: 5px solid #ffb6c1;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5);
+}
+
+.abouttoi div {
+	max-width: 330px;
+}
+.timer__items {
+    display: flex;
+    font-size: 20px;
+    font-family: 'gilroy500';
+    justify-content: center;
+    color: #202020;
+}
+#start_button{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		font-size: 20px;
+		background:none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		margin-left: 57%;
+		margin-top: 50%;
+}
+.timer__item {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-bottom: 15px;
+    padding-top: 6px;
+    text-align: center;
+    border: 2px solid #7f81e8;
+    border-radius: 50%;
+}
+.timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 9px;
+    transform: translateX(-50%);
+    font-size: 12px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0!important;
+}
+
+body {
+	font-family: FuturaPT-400;
+	color: #202020 !important;
+	background: #ffffff;
+	overflow-x: hidden;
+}
+
+.sitecontainer {
+	max-width: 450px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.kurmetti {
+	text-align: center;
+	font-family: Cormorant-700;
+	font-size: 29px;
+	text-transform: uppercase;
+	color: #6b94cd !important;
+/*	background: #4D792E;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transsparent;*/
+	 /* margin-top: 510px;  */
+}
+.head1{
+	text-align: center;
+	font-family: Cormorant-700;
+	font-size: 29px;
+	text-transform: uppercase;
+	color: #6b94cd;
+	margin-top: 100px;
+}
+
+.shaktext {
+	font-family: FuturaPT-400;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.blok-0 {
+	background-image: url("./fon-1.png");
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*min-height: 800px;*/
+}
+.blok-2 {
+	background-image: url("./fon-2.jpg");
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*min-height: 800px;*/
+}
+
+.abouttoi {
+    text-align: center;
+    color: #202020;
+    font-size: 22px;
+    display: flex;
+    padding-bottom: 275px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toi1 {
+	font-family: Cormorant-700;
+	font-size: 36px;
+	margin-top: 205px;
+	margin-bottom: 20px;
+}
+
+.toi2 {
+	font-family: FuturaPT-400;
+}
+
+.toi3 {
+	font-family: Cormorant-600;
+	font-size: 30px;
+}
+
+.toi4 {
+	font-family: Cormorant-600;
+}
+
+.toi5 {
+	font-family: FuturaPT-400;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.toi7 {
+	height: 1px;
+	width: 70%;
+	margin: 0 auto;
+	background: #EDEDED;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.toi8 {
+	height: 1px;
+	width: 70%;
+	margin: 0 auto;
+	background: #EDEDED;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.toi9 {
+	font-family: Cormorant-600;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.toi10 {
+	font-size: 19px;
+	font-family: FuturaPT-400;
+}
+
+.toi10 span {
+	font-weight: 600;
+}
+
+img.mapimage {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #2c3098;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.twogis {
+	display: block;
+	margin: 0 auto;
+	width: 240px;
+	height: 60px;
+	font-family: FuturaPT-400;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	background: linear-gradient(117.06deg, #124e68 23.73%, #3d68be 45.38%, #1d1d74 52.48%, #2555af 80.6%);
+	border-radius: 10px;
+	padding: 15px;
+	border-bottom: 4px solid #3d68be;
+	box-shadow: 1px 3px 10px #3d75be;
+	text-decoration: none;
+}
+
+.twogis:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.twogis:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+.prigtitle {
+	font-family: Cormorant-700;
+	font-size: 24px;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.prtdop {
+	font-family: FuturaPT-400;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.spanzay {
+	font-family: FuturaPT-400;
+	font-size: 18px;
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+.inputname {
+	display: block;
+	background: #FFF9F5;
+	border: 0.5px solid #1d3174;
+	border-radius: 4px;
+	font-family: FuturaPT-400;
+	font-size: 18px;
+	height: 45px;
+	width: 100%;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+
+input.inputname:focus {
+	border-color: #211d74 !important;
+}
+
+.inputtilek {
+	display: block;
+	background: #FFF9F5;
+	border: 0.5px solid #1d3974;
+	border-radius: 4px;
+	font-family: FuturaPT-400;
+	font-size: 18px;
+	height: 100px;
+	width: 100%;
+	padding-left: 15px;
+}
+
+.zayotrp {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	width: 240px;
+	height: 60px;
+	font-family: FuturaPT-400;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	background: linear-gradient(117.06deg, #124e68 23.73%, #3d68be 45.38%, #1d1d74 52.48%, #2555af 80.6%);
+	border-radius: 10px;
+	padding: 15px;
+	border-bottom: 4px solid #3d68be;
+	box-shadow: 1px 3px 10px #3d75be;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.deadline {
+	font-family: FuturaPT-400;
+	font-size: 16px;
+	color: #969696;
+	text-align: center;
+}
+
+.custom-radio {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.custom-radio+label {
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+}
+
+.custom-radio+label::before {
+	content: '';
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	flex-shrink: 0;
+	flex-grow: 0;
+	border: 1px solid #adb5bd;
+	border-radius: 50%;
+	margin-right: 0.5em;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+	border-color: #261d74;
+}
+
+
+.custom-radio:not(:disabled):active+label::before {
+	background-color: #271d74;
+	border-color: #1d1d74;
+}
+
+.custom-radio:focus+label::before {
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-radio:focus:not(:checked)+label::before {
+	border-color: #261d74;
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+.custom-radio:checked+label::before {
+	border-color: #261d74;
+	background-color: #271d74;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.custom-radio:disabled+label::before {
+	background-color: #271d74;
+}
+.sound {
+    position: fixed;
+	bottom: 100px;
+    right: 20px;
+    width: 194px;
+    height: 60px;
+    background: #1f14b6;
+    border-radius: 50px;
+    padding: 7px;
+    box-shadow: 0px 2px 3px #00000059;
+    z-index: 999;
+}
+.sound-on img {
+    max-height: 46px;
+    border-radius: 50%;
+}
+.sound-off-svg {
+    max-height: 46px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 6px #00000069;
+}
+.sound-off-gif {
+    max-height: 36px;
+    margin-left: 5px;
+}
+.sound-on span {
+    color: #fff;
+    margin-left: 2px;
+}
+.sound-off {
+    display: none;
+    float: left;
+}
+
+@media (max-width: 500px) {
+	.abouttoi {
+		padding-bottom: 275px;
+	}
+
+	.brblok {
+		display: none;
+	}
+
+}
+
+@media (max-width: 454px) {
+	 /* .kurmetti {
+		margin-top: 480px!important; 
+	}   */
+	.blok-2 {
+	    background-size: 105%;
+	}
+
+}
+
+@media (max-width: 420px) {
+/* 
+	 .kurmetti {
+		margin-top: 460px!important;
+	}  */
+
+
+}
+
+@media (max-width: 400px) {
+
+	 /* .kurmetti {
+		margin-top: 440px!important;
+	}   */
+
+}
+
+@media (max-width: 398px) {
+	.blok-4 {
+		height: 800px;
+	}
+	.blok-2 {
+	    background-size: 112%;
+	}
+
+}
+
+@media (max-width: 381px) {
+
+
+	.blok-2 {
+	    background-size: 120%;
+	}
+	.abouttoi {
+		padding-bottom: 280px;
+	}
+
+	 /* .kurmetti {
+		margin-top: 415px!important;
+	}   */
+
+
+}
+
+@media (max-width: 345px) {
+	.blok-2 {
+		background-position: center bottom;
+		background-size: cover;
+	}
+ 
+	/* .kurmetti {
+		margin-top: 370px!important;
+		font-size: 26px;
+	}  */
+
+}
